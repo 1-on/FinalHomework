@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFDA4AD9-2D84-4C1B-B8A4-8074301B5F44}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalHomework</RootNamespace>
+    <AssemblyName>FinalHomework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDaleiName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDaleiName.Designer.cs">
+      <DependentUpon>AddDaleiName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addgongsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addgongsi.Designer.cs">
+      <DependentUpon>Addgongsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addjiadian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addjiadian.Designer.cs">
+      <DependentUpon>Addjiadian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPinpaiName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPinpaiName.Designer.cs">
+      <DependentUpon>AddPinpaiName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddxiaoleiName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddxiaoleiName.Designer.cs">
+      <DependentUpon>AddxiaoleiName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonUser.Designer.cs">
+      <DependentUpon>CommonUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dalei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dalei.Designer.cs">
+      <DependentUpon>dalei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goumai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goumai.Designer.cs">
+      <DependentUpon>Goumai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoumaiXinxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoumaiXinxi.Designer.cs">
+      <DependentUpon>GoumaiXinxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JuTixiaoshou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JuTixiaoshou.Designer.cs">
+      <DependentUpon>JuTixiaoshou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JiaDian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JiaDian.Designer.cs">
+      <DependentUpon>JiaDian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JuTixiaoshoumingxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JuTixiaoshoumingxi.Designer.cs">
+      <DependentUpon>JuTixiaoshoumingxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaiFangGongSi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaiFangGongSi.Designer.cs">
+      <DependentUpon>MaiFangGongSi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageMent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageMent.Designer.cs">
+      <DependentUpon>ManageMent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinPaiManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PinPaiManage.Designer.cs">
+      <DependentUpon>PinPaiManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tongji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tongji.Designer.cs">
+      <DependentUpon>Tongji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManage.Designer.cs">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistratiomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistratiomForm.Designer.cs">
+      <DependentUpon>RegistratiomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xiaolei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xiaolei.Designer.cs">
+      <DependentUpon>xiaolei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xiaoshou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xiaoshou.Designer.cs">
+      <DependentUpon>Xiaoshou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xiaoshoumingxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xiaoshoumingxi.Designer.cs">
+      <DependentUpon>Xiaoshoumingxi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddDaleiName.resx">
+      <DependentUpon>AddDaleiName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addgongsi.resx">
+      <DependentUpon>Addgongsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addjiadian.resx">
+      <DependentUpon>Addjiadian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPinpaiName.resx">
+      <DependentUpon>AddPinpaiName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddxiaoleiName.resx">
+      <DependentUpon>AddxiaoleiName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonUser.resx">
+      <DependentUpon>CommonUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dalei.resx">
+      <DependentUpon>dalei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goumai.resx">
+      <DependentUpon>Goumai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoumaiXinxi.resx">
+      <DependentUpon>GoumaiXinxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JuTixiaoshou.resx">
+      <DependentUpon>JuTixiaoshou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JiaDian.resx">
+      <DependentUpon>JiaDian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JuTixiaoshoumingxi.resx">
+      <DependentUpon>JuTixiaoshoumingxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaiFangGongSi.resx">
+      <DependentUpon>MaiFangGongSi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageMent.resx">
+      <DependentUpon>ManageMent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PinPaiManage.resx">
+      <DependentUpon>PinPaiManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tongji.resx">
+      <DependentUpon>Tongji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManage.resx">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegistratiomForm.resx">
+      <DependentUpon>RegistratiomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xiaolei.resx">
+      <DependentUpon>xiaolei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xiaoshou.resx">
+      <DependentUpon>Xiaoshou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xiaoshoumingxi.resx">
+      <DependentUpon>Xiaoshoumingxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
